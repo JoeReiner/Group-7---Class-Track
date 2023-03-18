@@ -9,8 +9,13 @@
     background-color: #487A6C;
     color: white;
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
+    justify-content: space-around;
     margin: 10px auto;
+}
+
+.display-5 {
+    text-align: center;
 }
 
 .welcome {
@@ -22,7 +27,6 @@
     display: flex;
     width: 100%;
     text-align: center;
-    justify-content: space-around;
 }
 
 .linkButtons button {
