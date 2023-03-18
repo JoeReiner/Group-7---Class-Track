@@ -1,8 +1,28 @@
 *{
-    margin: 0;
+    margin: 10 px;
     padding: 0;
     list-style: none;
     text-decoration: none;
+}
+
+.jumbotron {
+    background-color: #487A6C;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+}
+
+.welcome {
+    font-size: 25px;
+    text-align: center;
+}
+
+.linkButtons {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .linkButtons button {
@@ -10,7 +30,6 @@
     color: white;
     border: none;
     padding: 40px 20px;
-    font-size: 31px;
     height: 130px;
     width: 130px;
     box-shadow: 0 2px 4px darkslategray;
@@ -23,4 +42,3 @@
     box-shadow: 0 0 2px darkslategray;
     transform: translateY(2px);
   }
-
