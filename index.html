@@ -1,54 +1,186 @@
 <!DOCTYPE html>
 <html>
-    <head>
-
-        <link href="./CSS/style.css" rel="stylesheet" type="text/css">
-       
-        <scriptThe code we need can be found at code.jquery.com:
- src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
- </head>
-   
- <h2>
-
-        <div>
-            <img href="./images/Unread Notification.png">
+  <head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Boostrap CSS reference-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <img src="images/unread notification.png">
+          <h2 class="display-5">Buchanan Middle School</h2>
+          <img src="images/menu icon.png">
         </div>
-        </div>
+      </div>
     </header>
-
-    <section>
-        <div>
-         <p> Please enter details</p>
+    <title>Class Track</title>
+  </head>
+  <body>
+    <script src="JS/index.js"></script>
+    <section class="homePageContent">
+      <p class="welcome">Welcome, Felin Kale</p>
+      <div class="schoolNews">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">School News</h5>
+            <p class="card-text">• Maintenance: Gymnasium B closed until 3:00 PM</p>
+            <p class="card-text">• Conferences: New dates: 4/1/23 - 4/2/23</p>
+            <p class="card-text">• Assembly: Mandatory safety assembly at 4:00 PM</p>
+          </div>
         </div>
-        <div>
-        <button type="button">Select Class <img src="./images/Screenshot 2023-03-17 202946.png" alt=""></button>
-    
-        <button type="button">Select Student <img src="./images/Screenshot 2023-03-17 202946.png"alt=""></button>
-    
-</div>
-
-<div>
-   <p>Select Alert category:</p>
-    <button> Altercation<img src="./images/Screenshot 2023-03-17 213220.png" alt=" Altercation"></button>
-    <button> Counselor!<img src="./images/couch.png" alt=" Altercation"></button>
-    <button> English Learner <img src="./images/Screenshot 2023-03-17 204107.png" alt=" Altercation"></button>
-    <button> Nurse/Medical<img src="./images/Medicine.png" alt=" Altercation"></button>
-    <button> Special Education <img src="./images/Person.png" alt=" Altercation"></button>
-    <button> Other!<img src="images/dot.png" alt=" Altercation"></button>
-
-</div>
-</section>
-    
-<div>
-    <button> Enter additional information here...</button>
-</div>
-<div>
-    <button> Confirm and review </button>
-</div>
-
-</section>
-<button type="button"></button>
-</div>
-</section>
+      </div>
+      <div class="linkButtons">
+        <div class="linkNotifications">
+          <button class="notifButton">
+            <img src="Images/envelope_white_unread.png">
+          </button>
+          <p>Notifications</p>
+        </div>
+        <div class="linkCreateAlert">
+          <button class="alertButton">
+            <img src="Images/exclamation.png">
+          </button>
+          <p>Create New Alert</p>
+        </div>
+        <div class="linkAttendance">
+          <button class="attendButton">
+            <img src="Images/checklist.png">
+          </button>
+          <p>Attendance</p>
+        </div>
+        <div class=linkGradebook>
+          <button class="gradeButton">
+            <img src="Images/book.png">
+          </button>
+          <p>Gradebook</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
+
+
+2nd window - Create Alert
+<head>
+
+    <div class="iosHeader">
+        <img src="/Images/header 1 img.png">
+    </div>
+    
+    <div class="mainNavigationMenu">
+        <img src="/Images/header 2 img.png">
+    </div>
+    
+    </head>
+    
+    
+    
+    <body>
+    <section>
+    <div class="detailsAndCategories">
+
+        <div class="dropsDowns">
+         <p>Please enter details:</p>
+         <button>Select Class</button>
+         <Button>Select Student</Button>
+        </div>
+
+        <div>
+            <p>Select Alert Category:</p>
+            <button></button>
+            <img src="/Images/Alt icon.png">
+            <p>Altercation</p>
+
+            <button></button>
+            <img src="/Images/counsler icon.png">
+            <p>Counselor</p>
+
+            <button></button>
+            <img src="/Images/english language icon.png">
+            <p>English Learner</p>
+
+            <button></button>
+            <img src="/Images/nurse-medical icon.png">
+            <p>Nurse/Medical</p>
+
+            <button></button>
+            <img src="/Images/special education icon.png">
+            <p>Special Education</p>
+
+            <button></button>
+            <img src="/Images/other icon.png">
+            <p>Other</p>
+
+            <div class="enterAdditionalInformationForm">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Enter additional information here</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check to add to drafts</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Confirm and Review</button>
+                  </form>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+    
+    </body>
+
+
+3rd window - Alerts & Notifications
+<head>
+
+<div class="iosHeader">
+    <img src="/Images/header 1 img.png">
+</div>
+
+<div class="mainNavigationMenu">
+    <img src="/Images/header 2 img.png">
+</div>
+
+</head>
+
+
+
+<body>
+<section>
+<div class="unreadNotifications">
+     <p>Unread Notifications</p>
+
+    <div class="sallyBelly">
+     <img src="/Images/sally belly img.png">
+     <button>X</button>
+     <img src="/Images/mail img.png">
+    </div>
+</div>
+
+<div class="existingAlerts">
+    <p>Exisiting Alerts</p>
+ <div>
+    <img src="/Images/existing alerts img.png">
+ </div>
+</div>
+
+<div>
+    <button>Return to Home</button>
+</div>
+
+</section>
+
+</body>
+
+
+
+
+<footer>
+
+</footer>
