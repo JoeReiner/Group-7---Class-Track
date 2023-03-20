@@ -117,3 +117,35 @@
   color: white;
   background-color: #487A6C;
 }
+
+.createNew{
+  text-align: center;
+}
+
+.returnToEdit{
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin: 10px auto;
+  color: black;
+  background-color: #BDCFCA;
+}
+
+.alertCard{
+    max-width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BDCFCA;
+}
+
+.btn-goupAlert{
+  display: block;
+  width: 60%;
+  padding: 10px 24px;
+}
+
+.confirmationText{
+  text-align: center;
+  font-weight: bold;
+}
