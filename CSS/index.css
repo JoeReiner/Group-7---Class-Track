@@ -68,3 +68,52 @@
     transform: translateY(2px);
   }
 
+.iosHeader{
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.mainNavigationMenu{
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.unreadNotifications {
+  font-size: 25px;
+  text-align: center;
+}
+
+.exisitingAlerts {
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+.exisitingAlertsImage{
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+.returnToHome {
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin: 10px auto;
+  color: white;
+  background-color: #487A6C;
+}
