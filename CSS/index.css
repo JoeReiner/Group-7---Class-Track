@@ -139,13 +139,34 @@
     background-color: #BDCFCA;
 }
 
-.btn-goupAlert{
+.altBold{
+  font-weight: bold;
+}
+
+.groupAlert{
   display: block;
+  align-items: center;
   width: 60%;
   padding: 10px 24px;
+  margin-left: 75px;
+}
+
+.bottomButtons{
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 .confirmationText{
   text-align: center;
   font-weight: bold;
+}
+
+.btn-groupAlert{
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.confirmationText{
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
