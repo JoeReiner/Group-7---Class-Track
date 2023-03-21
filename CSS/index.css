@@ -123,6 +123,9 @@
   margin: 10px auto;
   color: white;
   background-color: #487A6C;
+  text-shadow: #050505;
+  border: none;
+  padding: 10px;
 }
 
 .createNew{
@@ -136,6 +139,8 @@
   margin: 10px auto;
   color: black;
   background-color: #BDCFCA;
+  border: none;
+  padding: 10px;
 }
 
 .alertCard{
