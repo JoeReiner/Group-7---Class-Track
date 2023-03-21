@@ -15,6 +15,12 @@
     margin: 10px auto;
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
 /*Header in jumbotron*/
 .display-5 {
     text-align: center;
