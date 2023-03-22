@@ -1,6 +1,6 @@
 
 
-.container{ font-size: small;}
+/*.container{ font-size: small;}
 
 .Alert{
   display: inline-block;
@@ -19,7 +19,7 @@ h2 {
 
     /* Styling */
     
-    body {
+    /*body {
       margin: auto;
       width: 640px; 
       padding: 50px;
