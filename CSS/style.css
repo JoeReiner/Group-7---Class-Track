@@ -10,20 +10,57 @@
 height: 66%;
 weight: 66% ;
 }
+.container
+.Alert{ font-size: 26px;
 
-h2 {
+  text-align: center;
+  display:flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  font-weight: bold;
+}
 
-    text-align: center;
-    
+.container
+.bob { font-size: 25px;
+  
+  text-align: center;
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  font-weight: bold;
+} 
+
+.container
+.imput{
+
+  text-align:center;
+  display: block;
+}
+
+h1{ display: flex;
+justify-content: center;}
+
+.goodbye{display: flex;
+  justify-content: center}
+
+.header{display: flex;
+  justify-content: center}
+
+  .lol
+  {display: flex;
+    justify-content: center}
+
+    .goodbye{
+      padding: auto;
+      justify-content: center;
     }
 
-    /* Styling */
+ 
     
-    body {
-      margin: auto;
-      width: 640px; 
-      padding: 50px;
-      font-family: 'Lexend Deca', sans-serif; 
-      color: #2E475D;    
-    }
   
