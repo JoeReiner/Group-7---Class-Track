@@ -1,0 +1,29 @@
+
+
+.container{ font-size: small;}
+
+.Alert{
+  display: inline-block;
+}
+.container{ font-weight: 200;}
+.button {
+height: 66%;
+weight 66% ;
+}
+
+h2 {
+
+    text-align: center;
+    
+    }
+
+    /* Styling */
+    
+    body {
+      margin: auto;
+      width: 640px; 
+      padding: 50px;
+      font-family: 'Lexend Deca', sans-serif; 
+      color: #2E475D;    
+    }
+  
