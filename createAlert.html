@@ -1,119 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <title></title>
-        <link href="CSS/index.css" rel="stylesheet" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <header>
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <a href="reviewAlert.html"><img src="/Images/unread notification.png"></a>
-              <h2 class="createNew">Create New Alert</h2>
-              <img src="images/menu icon.png">
-            </div>
-          </div>
-        </header>
-    </head>
-    <body>
-    <section>
-        
-        <div>
-          <img>
-        </div>
-        <section parent container>
-        <h1>Please enter details:</h1>
-        <div>
-          <div>&nbsp;</div>
-        <div class="header">
-            <button> <img src="./images/Input (2).png"></button>
-            </div>
-            <div>&nbsp;</div>
-            <div class="lol">
-            <button><img src="./images/select student.png"></button>
-        </div>
-        </div>
-        <div>&nbsp;</div>
-       <div>
-        <h1>Select Alert Category:</h1>
-       </div>
-       <div>&nbsp;</div>
-        <!---alert buttons--->
+  <head> 
+    <title>Class Track</title>
+            <!--Required meta tags-->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <!--Boostrap CSS reference-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="css/index.css">
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <header>
+      <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <div class="Alert">
-            <div>&nbsp;</div> 
-
-            <div>
-
-            <button> <img src="./images/Altercation.png" alt="Altercation">Altercation</button>
-          </div>
-
-
-            <div>&nbsp;</div>
-
-            <!--im  an inline-block-->
-            <button> <img src="./images/councler c.png" alt="councler">Councler</button>
-
-            <div>&nbsp;</div>
-
-            <!--im  an inline-block-->
-            <button> <img src="./images/emgli.png" alt="English Learner">English Learner</button>
-      
-            <!--im  an inline-block-->
-          </div>
+          <a href="reviewAlert.html"><img src="/Images/unread notification.png"></a>
+            <h2 class="createNew">Create New Alert</h2>
+          <img src="images/menu icon.svg">
         </div>
-          
-            <div class="container">
-            </div>
-        </div>
-            
-        <div class="container">
-              <div class="bob">
-            <button> <img src="./images/med.png" alt="Nurse/Medical">Nurse/Medical</button>
-            <!--im  an inline-block-->
-
-            <div>&nbsp;</div>
-
-            <button> <img src="./images/special education.png" alt="Special education">Special education</button>
-            <!--im  an inline-block-->
-
-            <div>&nbsp;</div>
-
-            <button> <img src="./images/other.png" alt="other">other</button>
-            <!--im  an inline-block-->
-
-            <div>&nbsp;</div>
-            
-        </div>
-            </div>
-         
-            <div>&nbsp;</div>
-
-      <div class="container">
-        <div class="imput">
-        <form action="/action_page.php">
-            <input type="text">
-            </form>
-          </div>
-            </div>
-
-            <div>&nbsp;</div>
-       
-        <div class="goodbye">
-        <a href="index.html">
-          <button class="returnToHome">Return Home</button>
-        </a>
       </div>
-
-      </section>
-    </body>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="./JS/index.js"></script>
-        <!--Required meta tags-->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--Boostrap CSS reference-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/index.css">
-        <link href="CSS/style.css" rel="stylesheet" type="text/css">
-      
-    </html>
+    </header>
+  </head>
+  <body>
+    <section class="newAlertWindow">
+      <div class="alertDetails">
+        <h5 class="display-5">Please enter details:</h5>
+        <div class="alertSelect">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>-- Select Class --</option>
+              <option>4th Hour / Biology</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>-- Select Student --</option>
+              <option>Sally Belly</option>
+            </select>
+          </div>
+        </div>
+      <div class="alertCategory">
+        <h5 class="display-5">Select Alert category:</h5>
+        <div class="flex-grid-thirds">
+          <div class="col">
+            <button>
+              <img src="Images/Altercation.png">
+            </button>
+            <p>Altercation</p>
+          </div>
+          <div class="col">
+            <button>
+              <img src="Images/councler c.png">
+            </button>
+            <p>Counselor</p>
+          </div>
+          <div class="col">
+            <button>
+              <img src="Images/emgli.png">
+            </button>
+            <p>English Learner</p>
+          </div>
+      </div>
+        <div class="flex-grid-thirds">
+          <div class="col">
+            <button>
+              <img src="Images/med.png">
+            </button>
+            <p>Nurse/Medical</p>
+          </div>
+          <div class="col">
+            <button>
+              <img src="Images/special education.png">
+            </button>
+            <p>Special Education</p>
+          </div>
+          <div class="col">
+            <button>
+              <img src="Images/other.png">
+            </button>
+            <p>Other</p>
+          </div>
+        </div>
+        <div class="alertAdditionalInfo">
+          <div class="alertTextBox">
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"> Enter additional information...</textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="confirmReviewBtn">
+      <a href="reviewAlert.html">
+        <button class="returnToHome">Confirm and Review</button>
+      </a>
+    </div>
+  </body>
+</html>
