@@ -1,4 +1,4 @@
-.container{ font-size: small;}
+/*.container{ font-size: small;}
 
 .Alert{
   display: inline-block;
@@ -13,7 +13,7 @@ weight: 66% ;
  text-align: center;
   display:flex;
   /*flex-direction: row;*/
-  justify-content:space-around;
+ /*justify-content:space-around;
   margin-right:auto;
   margin-left:auto;
   width: 50%;
@@ -26,7 +26,7 @@ weight: 66% ;
   text-align: center;
   display: flex;
   /*flex-direction: row;*/
-  justify-content: space-around;
+  /*justify-content: space-around;
   margin-right: auto;
   margin-left: auto;
   width: 50%;
@@ -54,7 +54,7 @@ weight: 66% ;
 
     /* Styling */
     
-    body {
+    /*body {
       margin: auto;
       width: 640px; 
       padding: 50px;
